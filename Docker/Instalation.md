@@ -18,6 +18,8 @@ Run the following commands in terminal.
  $ sudo apt-get update
  $ sudo apt-get install docker-ce docker-ce-cli containerd.io
 ```
+<p>&nbsp;</p>
+
 ## _Reference_
 - [Windows](https://docs.docker.com/desktop/windows/install/)
 - [Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
