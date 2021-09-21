@@ -12,12 +12,12 @@ Your windows machine must meet some requirements to successfully install Docker 
 
 
 
-# _Linux_
-Run the following commands in console.
+# _Ubuntu_
+Run the following commands in terminal.
 ```sh
  $ sudo apt-get update
  $ sudo apt-get install docker-ce docker-ce-cli containerd.io
 ```
 ## _Reference_
 - [Windows](https://docs.docker.com/desktop/windows/install/)
-- [Linux](https://nodejs.org/)
+- [Linux](https://docs.docker.com/engine/install/ubuntu/)
