@@ -20,4 +20,4 @@ Run the following commands in terminal.
 ```
 ## _Reference_
 - [Windows](https://docs.docker.com/desktop/windows/install/)
-- [Linux](https://docs.docker.com/engine/install/ubuntu/)
+- [Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
