@@ -1,5 +1,5 @@
 # _DockerFile_
-The docker build command builds an image from a `DockerFile`. A `DockerFile` es a text document that contains all the commands a user coul call on the command line to assemble an image. 
+The docker build command builds an image from a `DockerFile`. A `DockerFile` es a text document that contains all the commands a user could call on the command line to assemble an image. 
 
 Traditionally, the `DockerFile` is called `DockerFile` and located in the root of the context.
 
