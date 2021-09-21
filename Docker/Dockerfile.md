@@ -50,7 +50,7 @@ The instruction is not case-sensitive. However, convention is for them to be UPP
 | `LABEL` | Specifies metadata informations to an image, it is a key-value pair. | `LABEL "Application_Environment"="Development"`|
 | `EXPOSE` | Inform about the network ports that the container listens on runtime. | `EXPOSE 8080 `|
 | `ADD` | Copy files, directories and remote URL files to the destination. It allows the `src` to be a URL, and extracts the file if its a compressed file. | `ADD src dest` |
-| `COPY` | Copy files, directories and remote URL files to the destination.   | `ADD /src /dest` |
+| `COPY` | Copy files, directories and remote URL files to the destination.   | `COPY /src /dest` |
 | `RUN` | Execute any commands on top of the current image and will create a new layer.  | `RUN apt-get update` |
 | `CMD` | Set a command to be executed when running a container. It is overwwritenn by `docker run`. | `CMD python myapplication.py` |
 | `ENTRYPOINT` | Configure and run a container as an executable. It is not overwritten by `docker run` . | `ENTRYPOINT python myapplication.py` |
