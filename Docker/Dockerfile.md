@@ -13,12 +13,12 @@ This example shows a build command that uses the current directory (`.`) as buil
 ```
 You can use the `-f` flag to point to a Dockerfile anywahere in your file system.
 ```sh
- $ docker build -f /path/to/a/Dockerfile
+ $ docker build -f /path/to/a/Dockerfile .
 ```
 
 You can specify a repository and a tag at which to save the new image if the build succeeds.
 ```sh
- $ docker build -t repository/tag
+ $ docker build -t repository/tag .
 ```
 
 
